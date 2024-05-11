@@ -16,7 +16,9 @@ console.log(productWithReduce([4, 3])); // 12
 */
 
 let productWithReduce = function(nums) {
-    // Your code here 
+    // Your code here
+    let pro = 1;
+    return nums.reduce((acc, el) => acc*el, pro);
 }
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
